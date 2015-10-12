@@ -1,0 +1,13 @@
+{
+  "private": {
+    "stripe": {
+      "clientId": "ca_79FAyLVTvYKWNlrFNckwV69kFlpg3GxX",
+      "secretKey": "sk_test_LiVDak0hZ5zcNREWoPt4g1vx"
+    }
+  },
+  "public": {
+    "stripe": {
+      "publishableKey": "pk_test_xy06z8AsaZE19Dv1okFow0s7"
+    }
+  }
+}

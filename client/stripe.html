@@ -1,0 +1,14 @@
+<template name="Stripe">
+  {{#if currentUser}}
+    <form id="collect">
+      <label for="amount">Amount</label>
+      <input placeholder="200.00" id="amount" type="text" class="validate">
+      <button type="submit" class="waves-effect waves-light green btn collect">Collect</button>
+    </form>
+  {{else}}
+    <div id="auth">
+      <p>Accept credit cards in minutes with <a href="http://stripe.com" target="_none">Stripe</a>.</p>
+      <button class="waves-effect waves-light blue btn auth">Connect A Stripe Account</button>
+    </div>
+  {{/if}}
+</template>
